@@ -13,7 +13,7 @@ export default {
     name: 'ResetSucc',
     methods: {
         closeWin() {
-            
+            this.$router.push('/');
         }
     }
 }

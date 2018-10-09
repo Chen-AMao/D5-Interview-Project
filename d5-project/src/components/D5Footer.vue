@@ -21,7 +21,7 @@ export default {
 <style lang="stylus" scoped>
     .footer
         background: #1D2129
-        height: 80px
+        height: 60px
         letter-spacing: 0
         overflow: hidden
         .left
@@ -31,8 +31,8 @@ export default {
             color: #fff
             line-height: 21px
             padding-left: 241px
-            padding-top: 33px
-            paddind-bottom: 33px
+            padding-top: 23px
+            paddind-bottom: 23px
         .right-one
             display: inline-block
             font-family: "SourceHanSansCN-Normal", sans-serif
@@ -40,6 +40,8 @@ export default {
             color: #9b9b9b
             line-height: 18px
             padding-left: 172px
+            padding-top: 24px
+            paddind-bottom: 24px
         .right-two
             display: inline-block
             font-family: "ArialMT", sans-serif
@@ -47,4 +49,6 @@ export default {
             color: #9b9b9b
             line-height: 14px
             padding-left: 16px
+            padding-top: 23px
+            paddind-bottom: 23px
 </style>

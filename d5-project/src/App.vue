@@ -1,7 +1,9 @@
 <template>
   <div id="app" class="app">
     <d5-header class="header"></d5-header>
-    <router-view class="router-view"/>
+    <div class="wrapper">
+      <router-view class="router-view"/>
+    </div>
     <d5-footer class="footer"></d5-footer>
   </div>
 </template>
@@ -31,10 +33,10 @@ export default {
       height: 52px
       flex-grow: 0
       flex-shrink: 0
-    .router-view
+    .wrapper
       flex: 1
     .footer
-      height: 80px
+      height: 60px
       flex-grow: 0
       flex-shrink: 0
 </style>
